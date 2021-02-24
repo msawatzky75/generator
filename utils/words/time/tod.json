@@ -1,0 +1,11 @@
+[
+	{ "word": "early_morning" },
+	{ "word": "morning" },
+	{ "word": "late_morning" },
+	{ "word": "afternoon" },
+	{ "word": "late_afternoon" },
+	{ "word": "early_evening" },
+	{ "word": "evening" },
+	{ "word": "late_evening" },
+	{ "word": "night" }
+]
