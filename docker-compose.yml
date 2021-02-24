@@ -10,5 +10,8 @@ services:
   web:
     build: .
     image: msawatzky75/generator-web
+    environment:
+      - LETSENCRYPT_HOST=gen.msawatzky75.com
+      - VIRTUAL_HOST=gen.msawatzky75.com
     networks:
       - proxy
