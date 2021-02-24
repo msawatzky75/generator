@@ -1,0 +1,14 @@
+version: "3.9"
+
+networks:
+  default:
+  proxy:
+    external:
+      name: proxy
+
+services:
+  web:
+    build: .
+    image: msawatzky75/generator-web
+    networks:
+      - proxy
